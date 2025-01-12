@@ -2,7 +2,7 @@
 class Rectangle {
 	constructor(width,height){
 		if(width<=0 ||height<=0){
-			get new error("width and height must be a positive integer.")
+			throw new Error("width and height must be a positive integer.")
 		}
 		this._width;
 		this._height;
