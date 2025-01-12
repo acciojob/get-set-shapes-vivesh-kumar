@@ -4,8 +4,8 @@ class Rectangle {
 		if(width<=0 ||height<=0){
 			throw new Error("width and height must be a positive integer.");
 		}
-		this._width;
-		this._height;
+		this._width=width;
+		this._height=height;
 	}
 	get width(){
 		return this._width;
